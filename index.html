@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CR7 Sports</title>
+    <meta name="description" content="APEX Official Website - Premium athletic wear and footwear">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Banner -->
+    <div class="top-banner">
+        <div class="banner-content">
+            <span>Get into the world of sports with - CR7</span>
+            <!-- <a href="#" class="banner-link">Learn More</a> -->
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <div class="nav-logo">
+                    <svg viewBox="0 0 120 40" class="apex-logo">
+                        <defs>
+                            <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <!-- C -->
+                        <path d="M33 18 C27 9, 15 9, 12 18 L12 30 C15 39, 27 39, 33 30" stroke="black" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                        <!-- R -->
+                        <path d="M42 39 L42 9 L57 9 C61.5 9, 63 12, 63 15 C63 18, 61.5 21, 57 21 L42 21 M50 21 L63 39" stroke="black" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                        <!-- 7 -->
+                        <path d="M72 9 L93 9 L78 39" stroke="black" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                        <!-- Accent dot -->
+                        <circle cx="98" cy="28" r="3" fill="black"/>
+                    </svg>
+                </div>
+                <div class="nav-menu" id="navMenu">
+                    <a href="#" class="nav-link active" data-page="home">New & Featured</a>
+                    <a href="#" class="nav-link" data-page="men">Men</a>
+                    <a href="#" class="nav-link" data-page="women">Women</a>
+                    <a href="#" class="nav-link" data-page="kids">Kids</a>
+                    <a href="#" class="nav-link" data-page="sale">Sale</a>
+                    <a href="#" class="nav-link" data-page="snkrs">CR7 Premium</a>
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="search-container">
+                    <input type="text" placeholder="Search products..." class="search-input">
+                    <svg class="search-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M21 21L16.514 16.506M19 10.5C19 15.194 15.194 19 10.5 19S2 15.194 2 10.5 5.806 2 10.5 2 19 5.806 19 10.5Z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div class="nav-icons">
+                    <button class="icon-btn" data-action="favorites">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M20.84 4.61C20.3292 4.099 19.7228 3.69364 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69364 13.5708 4.099 13.06 4.61L12 5.67L10.94 4.61C9.9083 3.5783 8.50903 2.9987 7.05 2.9987C5.59096 2.9987 4.19169 3.5783 3.16 4.61C2.1283 5.6417 1.5487 7.04097 1.5487 8.5C1.5487 9.95903 2.1283 11.3583 3.16 12.39L12 21.23L20.84 12.39C21.351 11.8792 21.7563 11.2728 22.0329 10.6054C22.3095 9.93789 22.4518 9.22248 22.4518 8.5C22.4518 7.77752 22.3095 7.06211 22.0329 6.39461C21.7563 5.72711 21.351 5.1208 20.84 4.61Z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </button>
+                    <button class="icon-btn" data-action="cart">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 2L3 6V20C3 20.5304 3.21071 21.0391 3.58579 21.4142C3.96086 21.7893 4.46957 22 5 22H19C19.5304 22 20.0391 21.7893 20.4142 21.4142C20.7893 21.0391 21 20.5304 21 20V6L18 2H6Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M3 6H21" stroke="currentColor" stroke-width="2"/>
+                            <path d="M16 10C16 11.0609 15.5786 12.0783 14.8284 12.8284C14.0783 13.5786 13.0609 14 12 14C10.9391 14 9.92172 13.5786 9.17157 12.8284C8.42143 12.0783 8 11.0609 8 10" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        <span class="cart-count">0</span>
+                    </button>
+                </div>
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content Container -->
+    <div id="pageContent">
+        <!-- Home Page (Default) -->
+        <div class="page-content active" id="home">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <div class="hero-image">
+                        <img src="https://rubberb.com/blog/wp-content/uploads/2023/04/Cristiano-Ronaldo-Watch-Collection-1-1-1.jpg" alt="CR7 Premium Collection" class="hero-img">
+                        <div class="hero-overlay"></div>
+                    </div>
+                    <div class="hero-text">
+                        <h1 class="hero-title">CR7 SPORTS WEAR COLLECTION</h1>
+                        <p class="hero-subtitle">Perfumes • Sportswears • Innerwear</p>
+                        <p class="hero-description" style="font-size: 30px; font-weight: 600;">Hello, Cristiano Ronaldo</p>
+                        <p class="hero-description">Welcome to CR7 Sports Collection. Get your best sports wear choosen by Cristiano itself. Made with the precision and trust.</p>
+                        <div class="hero-cta">
+                            <button class="cta-primary" data-action="shop-now">Shop Collection</button>
+                            <button class="cta-secondary" data-action="learn-more">Our Story</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Featured Section -->
+            <section class="featured">
+                <div class="container">
+                    <h2 class="section-title">Premium Collections</h2>
+                    <div class="featured-grid">
+                        <div class="featured-card">
+                            <img src="https://etimg.etb2bimg.com/photo/91319845.cms" alt="Premium Running">
+                            <div class="card-content">
+                                <h3>CR7 Perfumes</h3>
+                                <p>Engineered for Fragnance</p>
+                                <button class="card-btn" data-action="shop-running">Explore</button>
+                            </div>
+                        </div>
+                        <div class="featured-card">
+                            <img src="https://i.pinimg.com/originals/ab/c6/05/abc6050dfb273353ad2f1491dcb9a1a9.jpg" alt="Premium Basketball">
+                            <div class="card-content">
+                                <h3>CR7 Football Shoes</h3>
+                                <p>Go to Pitch</p>
+                                <button class="card-btn" data-action="shop-basketball">Explore</button>
+                            </div>
+                        </div>
+                        <div class="featured-card">
+                            <img src="https://knickgasm.com/cdn/shop/files/Nike-Court-Vision-x-Cristiano-Ronaldo-Knickgasm-1049.jpg?v=1734417110" alt="Premium Lifestyle">
+                            <div class="card-content">
+                                <h3>Luxury Lifestyle</h3>
+                                <p>Buy your Luxury</p>
+                                <button class="card-btn" data-action="shop-lifestyle">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Trending Section -->
+            <section class="trending">
+                <div class="container">
+                    <h2 class="section-title">Trending Now</h2>
+                    <div class="trending-grid">
+                        <div class="trending-item" data-product="air-max-270">
+                            <img src="https://cr7us.com/cdn/shop/products/IMG_3327.jpg?v=1649341438&width=1200" alt="CR7 Max 270">
+                            <div class="item-info">
+                                <h4>CR7 Premium Perfume</h4>
+                                <p>Smell like CR7</p>
+                                <span class="price">$50</span>
+                                <button class="add-to-cart" data-product-id="1">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="trending-item" data-product="air-jordan-1">
+                            <img src="https://blog.lovellsoccer.co.uk/wp-content/uploads/2023/09/FgbQNySXgAIJFmL.webp" alt="Cr7 Elite 1">
+                            <div class="item-info">
+                                <h4>CR7- 2017 RMFC</h4>
+                                <p>Football Shoes</p>
+                                <span class="price">$150</span>
+                                <button class="add-to-cart" data-product-id="2">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="trending-item" data-product="react-infinity">
+                            <img src="https://rukminim2.flixcart.com/image/750/900/xif0q/perfume/i/2/o/50-cr7-blue-perfume-long-lasting-fragrance-luxury-gift-pack-original-imagruhchntdm4nz.jpeg?q=90&crop=false" alt="CR7 React Infinity">
+                            <div class="item-info">
+                                <h4>CR7 Blue</h4>
+                                <p>Premium Fragnance </p>
+                                <span class="price">$90</span>
+                                <button class="add-to-cart" data-product-id="3">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="trending-item" data-product="dunk-low">
+                            <img src="https://cr7us.com/cdn/shop/files/2416.jpg?v=1748962062&width=1200" alt="CR7 Dunk Low">
+                            <div class="item-info">
+                                <h4>CR7 Underwears</h4>
+                                <p>Innerwears </p>
+                                <span class="price">$20</span>
+                                <button class="add-to-cart" data-product-id="4">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="trending-item" data-product="dunk-low">
+                            <img src="https://media.gettyimages.com/id/98243645/de/foto/santander-spain-cristiano-ronaldo-of-real-madrid-runs-with-his-nike-boots-during-the-la-liga.jpg?s=612x612&w=gi&k=20&c=LPrdKA8kNMY1vpKdNcKQTHJKmEexoZMLjwrBT88ouv4=" alt="CR7 Dunk Low">
+                            <div class="item-info">
+                                <h4>CR7 Shocks</h4>
+                                <p>Real Madrid Shocks</p>
+                                <span class="price">$10</span>
+                                <button class="add-to-cart" data-product-id="4">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="trending-item" data-product="dunk-low">
+                            <img src="https://m.media-amazon.com/images/I/51Ijssdr7VL._AC_UY1100_.jpg" alt="CR7 Dunk Low">
+                            <div class="item-info">
+                                <h4>CR7 Match Shirts</h4>
+                                <p>Get CR7 Jerseys </p>
+                                <span class="price">$60</span>
+                                <button class="add-to-cart" data-product-id="4">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Membership Section -->
+            <section class="membership">
+                <div class="container">
+                    <div class="membership-content">
+                        <h2>CR7 Premium Membership</h2>
+                        <p>Unlock exclusive access to premium products, early releases, and personalized experiences.</p>
+                        <div class="membership-benefits">
+                            <div class="benefit">
+                                <h4>Early Access</h4>
+                                <p>Be first to shop new releases</p>
+                            </div>
+                            <div class="benefit">
+                                <h4>Free Premium Delivery</h4>
+                                <p>Fast, free shipping on all orders</p>
+                            </div>
+                            <div class="benefit">
+                                <h4>Exclusive Products</h4>
+                                <p>Member-only colorways and designs</p>
+                            </div>
+                        </div>
+                        <button class="cta-primary" data-action="join-membership">Join Elite</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Men's Page -->
+        <div class="page-content" id="men">
+            <section class="category-hero">
+                <div class="container">
+                    <h1 class="category-title">Men's Collection</h1>
+                    <p class="category-subtitle">Premium athletic wear designed for the modern athlete</p>
+                </div>
+            </section>
+            <section class="products-grid">
+                <div class="container">
+                    <div class="filter-bar">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="shoes">Shoes</button>
+                        <button class="filter-btn" data-filter="clothing">Clothing</button>
+                        <button class="filter-btn" data-filter="accessories">Accessories</button>
+                    </div>
+                    <div class="products-container">
+                        <!-- Products will be loaded here -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Women's Page -->
+        <div class="page-content" id="women">
+            <section class="category-hero">
+                <div class="container">
+                    <h1 class="category-title">Women's Collection</h1>
+                    <p class="category-subtitle">Empowering designs for every challenge</p>
+                </div>
+            </section>
+            <section class="products-grid">
+                <div class="container">
+                    <div class="filter-bar">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="shoes">Shoes</button>
+                        <button class="filter-btn" data-filter="clothing">Clothing</button>
+                        <button class="filter-btn" data-filter="accessories">Accessories</button>
+                    </div>
+                    <div class="products-container">
+                        <!-- Products will be loaded here -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Kids Page -->
+        <div class="page-content" id="kids">
+            <section class="category-hero">
+                <div class="container">
+                    <h1 class="category-title">Kids Collection</h1>
+                    <p class="category-subtitle">Built for young athletes and dreamers</p>
+                </div>
+            </section>
+            <section class="products-grid">
+                <div class="container">
+                    <div class="filter-bar">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="shoes">Shoes</button>
+                        <button class="filter-btn" data-filter="clothing">Clothing</button>
+                        <button class="filter-btn" data-filter="accessories">Accessories</button>
+                    </div>
+                    <div class="products-container">
+                        <!-- Products will be loaded here -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Sale Page -->
+        <div class="page-content" id="sale">
+            <section class="category-hero sale-hero">
+                <div class="container">
+                    <h1 class="category-title">Premium Sale</h1>
+                    <p class="category-subtitle">Up to 50% off selected premium items</p>
+                </div>
+            </section>
+            <section class="products-grid">
+                <div class="container">
+                    <div class="filter-bar">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="shoes">Shoes</button>
+                        <button class="filter-btn" data-filter="clothing">Clothing</button>
+                        <button class="filter-btn" data-filter="accessories">Accessories</button>
+                    </div>
+                    <div class="products-container">
+                        <!-- Products will be loaded here -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- SNKRS Page -->
+        <div class="page-content" id="snkrs">
+            <section class="category-hero snkrs-hero">
+                <div class="container">
+                    <h1 class="category-title">CR7 Premium</h1>
+                    <p class="category-subtitle">Exclusive drops and limited editions</p>
+                </div>
+            </section>
+            <section class="products-grid">
+                <div class="container">
+                    <div class="filter-bar">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="shoes">Shoes</button>
+                        <button class="filter-btn" data-filter="clothing">Clothing</button>
+                        <button class="filter-btn" data-filter="accessories">Accessories</button>
+                    </div>
+                    <div class="products-container">
+                        <!-- Products will be loaded here -->
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Find A Store</h4>
+                    <ul>
+                        <li><a href="#" data-action="store-locator">Store Locator</a></li>
+                        <li><a href="#" data-action="apex-app">CR7 App</a></li>
+                        <li><a href="#" data-action="become-member">Become A Member</a></li>
+                        <li><a href="#" data-action="student-discount">Students Discount</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="#" data-action="order-status">Order Status</a></li>
+                        <li><a href="#" data-action="delivery">Delivery</a></li>
+                        <li><a href="#" data-action="returns">Returns</a></li>
+                        <li><a href="#" data-action="payment">Payment Options</a></li>
+                        <li><a href="#" data-action="contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>About CR7</h4>
+                    <ul>
+                        <li><a href="#" data-action="news">News</a></li>
+                        <li><a href="#" data-action="careers">Careers</a></li>
+                        <li><a href="#" data-action="investors">Investors</a></li>
+                        <li><a href="#" data-action="sustainability">Sustainability</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" data-action="twitter">GitHub</a>
+                        <a href="#" class="social-icon" data-action="facebook">Facebook</a>
+                        <a href="#" class="social-icon" data-action="youtube">Youtube</a>
+                        <a href="#" class="social-icon" data-action="instagram">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <span>&copy; 2025 CR7 Sportswear, Inc. All rights reserved by Sarthak</span>
+                    <div class="legal-links">
+                        <a href="#" data-action="guides">Guides</a>
+                        <a href="#" data-action="terms-sale">Terms of Sale</a>
+                        <a href="#" data-action="terms-use">Terms of Use</a>
+                        <a href="#" data-action="privacy">CR7 Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button class="close-cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <!-- Cart items will be loaded here -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <strong>Total: ₹<span id="cartTotal">0</span></strong>
+            </div>
+            <button class="checkout-btn" data-action="checkout">Secure Checkout</button>
+        </div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
